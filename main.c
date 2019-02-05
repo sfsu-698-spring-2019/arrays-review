@@ -2,7 +2,7 @@
 
 int main() {
     // Single Dimensional Arrays
-    printf("Single Dimesnional Array Access\n");
+    printf("Single Dimensional Array Access\n");
     int single_dimension_array[8] = {0, 1, 2, 3, 4, 5, 6, 7};
     int *p_single_dimension_array = single_dimension_array;
     // printing using array indexes
@@ -15,8 +15,8 @@ int main() {
     }
     printf("\n");
 
-    // Mulit Dimensional Arrays
-    printf("Multi Dimesnional Array Access\n");
+    // Multi-Dimensional Arrays
+    printf("Multi Dimensional Array Access\n");
     int two_dimension_array[2][4] = {{0, 1, 2, 3},
                                      {4, 5, 6, 7}}; // row major form
     // columns are 4 wide, aka "stride"
